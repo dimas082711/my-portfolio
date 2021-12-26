@@ -21,7 +21,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: #5b8d95;
+    background-color: rgba(91,141,149,0.5);
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@ header nav ul li a:hover {
 }
 
 .hero {
-    height: 400px;
+    height: 300px;
     width: 100%;
     margin-bottom: 25px; 
     display:flex;
@@ -112,7 +112,7 @@ header nav ul li a:hover {
 
 /*my work section*/
 .my-work {
-    padding: 40px;
+    padding: 100px;
 }
 
 .my-work-img {
@@ -127,6 +127,18 @@ header nav ul li a:hover {
     text-align: center;
     font-size: 30px;
 }
+
+/* FOOTER STYLE*/
+
+footer{
+    background:rgba(91,141,149,0.5);
+    padding:25px 35px;
+    
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 
 
 
