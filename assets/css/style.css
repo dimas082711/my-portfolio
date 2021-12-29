@@ -76,7 +76,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow:none;
 }
-
+/* HERO SECTION STYLE */
 .hero {
     background-image: url("../images/hero-background.png ");
     background-size: cover;
@@ -152,6 +152,7 @@ footer h2 {
     font-size: 17px;
 }
 
+/* IF SCREEN SIZE IS SMALLER THAN 980px */
 @media screen and (max-width: 980px) {
     header {
         justify-content: center;
@@ -182,7 +183,7 @@ footer h2 {
         background-size:80% ;
     }
 }
-
+/* IF SCREEN SIZE IS SMALLER THAN 575px */
 @media screen and (max-width: 575px) {
 
     header h1 {
