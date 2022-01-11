@@ -91,6 +91,12 @@ header nav ul li a:hover {
   align-items: flex-start;
 }
 
+.avatar {
+  margin-right: 80%;
+  padding: 10px;
+
+}
+
 /*about-me section*/
 
 .about-me {
@@ -200,7 +206,11 @@ footer h2 {
   }
 
   .hero {
-    background-size: 80%;
+    background-size: 65%;
+  }
+
+  .avatar {
+    margin-right: 75%;
   }
   .run-buddy img {
     display: flex;
@@ -232,6 +242,10 @@ footer h2 {
   header nav ul li a {
     font-size: 30px;
   }
+
+  .avatar {
+    margin-right: 73%;
+  }
   .about-me {
     display: flex;
     flex-wrap: wrap;
@@ -240,6 +254,10 @@ footer h2 {
   .section-title {
     border: none;
     width: 100%;
+  }
+
+  .avatar {
+    margin-right: 0%;
   }
   .run-buddy img {
     width: 100%;
